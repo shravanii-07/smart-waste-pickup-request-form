@@ -1,0 +1,77 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(55, 39, 18);
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(255, 248, 220, 0.9); /* cornsilk */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.3);
+}
+
+h1 {
+    text-align: center;
+    color: forestgreen;
+}
+
+p {
+    text-align: center;
+    color: saddlebrown;
+}
+
+.title {
+    color: seagreen;
+}
+
+label {
+    font-weight: bold;
+    color: saddlebrown;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid saddlebrown;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: seagreen;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: forestgreen;
+}
+
+.recent-box {
+    background: beige;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.item {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px 0;
+    border-left: 4px solid seagreen;
+}
+
+.empty-text {
+    text-align: center;
+    color: #444;
+}
